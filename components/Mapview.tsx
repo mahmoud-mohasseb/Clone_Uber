@@ -113,7 +113,7 @@ const MapContainer = () => {
           <MapViewDirections
             origin={originDirection}
             destination={destinationDirection}
-            apikey="AIzaSyCR-US50WHTB6_sEAvVMiqcHIVA93-8PpU"
+            apikey=process.env.GOOGLE_MAP_API
             strokeWidth={4}
             strokeColor="black"
             optimizeWaypoints={true}
