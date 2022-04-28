@@ -8,16 +8,15 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-C3aNXvY1RVrObKR8v9jyRbGylTzbGwonzw&usqp=CAU",
+      "background-blend-mode": "multiply",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
